@@ -1,0 +1,166 @@
+{
+  "ProductsData": [
+    {
+      "ProductName": "Headset",
+      "ProductType": "Electronic gadget",
+      "ProductManufacturer": "Bose",
+      "ProductShippedBy": "Amazon",
+      "ProductPrice": "12349",
+      "id": "5b00"
+    },
+    {
+      "ProductName": "Black Shoe",
+      "ProductType": "Formal Black Shoe",
+      "ProductManufacturer": "Bata",
+      "ProductShippedBy": "Meesho",
+      "ProductPrice": "2900",
+      "id": "17c8"
+    },
+    {
+      "ProductName": "Redmi note12",
+      "ProductType": "Smartphone",
+      "ProductManufacturer": "Xioami",
+      "ProductShippedBy": "Aamzon",
+      "ProductPrice": "2435",
+      "id": "cce4"
+    },
+    {
+      "ProductName": "Acer a23 laptop",
+      "ProductType": "Electronic gadget",
+      "ProductManufacturer": "Acer Electronics",
+      "ProductShippedBy": "DHL",
+      "ProductPrice": "43000",
+      "id": "f081"
+    },
+    {
+      "ProductName": "Dhal ",
+      "ProductType": "Grossery ",
+      "ProductManufacturer": "Ashirvad",
+      "ProductShippedBy": "Blinkit",
+      "ProductPrice": "300",
+      "id": "2b86"
+    }
+  ],
+  "UserDetails": [
+    {
+      "id": "1997",
+      "Name": "Arun",
+      "Email": "arun@gmail.com",
+      "Password": "arun123",
+      "Re_enterPassword": "arun123"
+    },
+    {
+      "Name": "Karthik",
+      "Email": "karthik@gmail.com",
+      "Password": "Karthi@123",
+      "Re_enterPassword": "Karthi@123",
+      "id": "b789"
+    },
+    {
+      "id": "1b84",
+      "Name": "Vignesh",
+      "Email": "vignesh12@gmail.com",
+      "Password": "vig123",
+      "Re_enterPassword": "vig123"
+    }
+  ],
+  "ShipmentData": [
+    {
+      "id": "101",
+      "ProductName": "Nike Air Max",
+      "ShippedDate": "2025-03-10",
+      "DeliveredDate": "2025-03-15",
+      "Status": "Delivered"
+    },
+    {
+      "id": "102",
+      "ProductName": "Samsung Galaxy S21",
+      "ShippedDate": "2025-03-12",
+      "DeliveredDate": "2025-03-18",
+      "Status": "In Transit"
+    },
+    {
+      "ProductName": "LG TV",
+      "ShippedDate": "2025-03-20",
+      "DeliveredDate": "2025-03-26",
+      "Status": "Shipped",
+      "id": "be8a"
+    },
+    {
+      "ProductName": "Mi Tv",
+      "ShippedDate": "2025-03-22",
+      "DeliveredDate": "2025-03-27",
+      "Status": "In Transit",
+      "id": "8498"
+    }
+  ],
+  "OrdersData": [
+    {
+      "id": "201",
+      "ProductName": "Nike Air Max",
+      "BuyerName": "John Doe",
+      "OrderDate": "2025-03-08",
+      "PaymentStatus": "Paid",
+      "OrderStatus": "Delivered"
+    },
+    {
+      "id": "202",
+      "ProductName": "Samsung Galaxy S21",
+      "BuyerName": "Jane Smith",
+      "OrderDate": "2025-03-10",
+      "PaymentStatus": "Pending",
+      "OrderStatus": "Confirmed"
+    },
+    {
+      "ProductName": "Philips Trimmer",
+      "BuyerName": "Naveen",
+      "OrderDate": "2025-03-20",
+      "PaymentStatus": "Pending",
+      "OrderStatus": "Delivered",
+      "id": "6e0b"
+    }
+  ],
+  "BuyersData": [
+    {
+      "id": "301",
+      "Name": "John Doe",
+      "Email": "john.doe@example.com",
+      "TotalOrders": 5,
+      "LastOrderDate": "2025-03-08"
+    },
+    {
+      "id": "302",
+      "Name": "Jane Smith",
+      "Email": "jane.smith@example.com",
+      "TotalOrders": 3,
+      "LastOrderDate": "2025-03-10"
+    },
+    {
+      "Name": "Karan",
+      "Email": "karan12@gmail.com",
+      "TotalOrders": "12",
+      "LastOrderDate": "2025-03-27",
+      "id": "d1d2"
+    }
+  ],
+  "SellersData": [
+    {
+      "id": "401",
+      "Name": "Nike Inc.",
+      "ContactInfo": "contact@nike.com",
+      "TotalProductsListed": 25
+    },
+    {
+      "id": "402",
+      "Name": "Samsung Electronics",
+      "ContactInfo": "support@samsung.com",
+      "TotalProductsListed": 15
+    },
+    {
+      "Name": "Yogesh",
+      "ContactInfo": "goliu@12134.co",
+      "TotalProductsListed": "23",
+      "id": "c0f9"
+    }
+  ]
+}
