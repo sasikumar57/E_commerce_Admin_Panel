@@ -23,7 +23,7 @@ const Header = () => {
             <header>
                 <div className='first-section'>
                 <a href='/'><div className='logo-section'>
-                        <img src='/public/ajio2.png' title='Home' alt='Ajio logo' />
+                        <img src='../ajio2.png' title='Home' alt='Ajio logo' />
                     </div></a>
                     <div className='title-section'>
                         <p>Ajio Shopping Site</p>
