@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react'
-// import Header from '../../DesignComponent/Header'
-// import Sidebar from '../../DesignComponent/Sidebar'
 import Header from '../../assets/DesignComponent/Header'
 import Sidebar from '../../assets/DesignComponent/Sidebar'
 import { useNavigate, useParams } from 'react-router-dom'

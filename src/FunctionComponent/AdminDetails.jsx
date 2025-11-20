@@ -42,12 +42,12 @@ const AdminDetails = () => {
     }
   };
 
-  // ✅ Toggle credentials visibility
+  // Toggle credentials visibility
   const handleToggleCredentials = () => {
     setShowCredentials(!showCredentials);
   };
 
-  // ✅ Update admin credentials
+  // Update admin credentials
   const handleUpdate = async () => {
     if (!email || !password) {
       Swal.fire('Error!', 'All fields are required!', 'error');
@@ -62,12 +62,12 @@ const AdminDetails = () => {
         Re_enterPassword: password,
       });
 
-      // ✅ Update session storage after modifying credentials
+      // Update session storage after modifying credentials
       sessionStorage.setItem('email', email);
       sessionStorage.setItem('password', password);
 
       Swal.fire('Success!', 'Admin credentials updated successfully.', 'success');
-      getAdminData(admin.Name); // ✅ Refresh state after updating
+      getAdminData(admin.Name); //  Refresh state after updating
       setShowCredentials(false);
     } catch (error) {
       console.error('Error updating admin credentials:', error);
@@ -75,7 +75,7 @@ const AdminDetails = () => {
     }
   };
 
-  // ✅ Delete admin account
+  // Delete admin account
   const handleDelete = async () => {
     if (!admin.id) return;
 
@@ -93,10 +93,10 @@ const AdminDetails = () => {
           await axios.delete(`${api_url}/${admin.id}`);
           Swal.fire('Deleted!', 'Admin account has been deleted.', 'success');
 
-          // ✅ Clear session storage after deletion
+          // Clear session storage after deletion
           sessionStorage.clear();
 
-          // ✅ Redirect to login page after deletion
+          // Redirect to login page after deletion
           window.location.href = '/login';
         } catch (error) {
           console.error('Error deleting admin account:', error);
@@ -113,7 +113,7 @@ const AdminDetails = () => {
     <main>
     <PageName pname="Admin Details" />
     <div className="admin-container">
-      {/* ✅ Admin Profile Card */}
+      {/*  Admin Profile Card */}
       <div className="admin-profile-card">
         <i className="fa fa-user-circle admin-icon"></i>
         <h2 className="admin-name">{admin.Name || 'Admin'}</h2>
@@ -131,7 +131,7 @@ const AdminDetails = () => {
         </button>
       </div>
 
-      {/* ✅ Admin Credentials Card */}
+      {/* Admin Credentials Card */}
       {showCredentials && (
         <div className="admin-credentials-card">
           <h4>Change Admin Credentials</h4>
@@ -165,13 +165,3 @@ const AdminDetails = () => {
 };
 
 export default AdminDetails;
-
-
-    // <>
-    //         <Header />
-    //         <Sidebar />
-    //         <main>
-    //             <PageName pname="Admin" />
-                
-    //         </main>
-    //     </>

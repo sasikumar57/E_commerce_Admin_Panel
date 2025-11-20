@@ -1,33 +1,9 @@
-// import React from 'react'
-// import Header from '../DesignComponent/Header'
-// import Sidebar from '../DesignComponent/Sidebar'
-// import PageName from '../DesignComponent/PageName'
-
-// const Orders = () => {
-//     return (
-//         <>
-//             <Header />
-//             <Sidebar />
-//             <main>
-//                 <PageName pname="Orders" />
-
-//             </main>
-//         </>
-//     )
-// }
-
-// export default Orders
-
-
 import React, { useEffect, useState, useMemo } from 'react';
-// import Header from '../DesignComponent/Header';
-// import Sidebar from '../DesignComponent/Sidebar';
 import Header from '../assets/DesignComponent/Header'
 import Sidebar from '../assets/DesignComponent/Sidebar'
 import PageName from '../assets/DesignComponent/PageName'
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-// import PageName from '../DesignComponent/PageName';
 import {
   useReactTable,
   getCoreRowModel,
