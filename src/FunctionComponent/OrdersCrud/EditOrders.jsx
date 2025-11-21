@@ -45,7 +45,7 @@ const EditOrders = () => {
   } = state
 
   const getOrdersData = async () => {
-    const response = await axios.get('http://localhost:3000/OrdersData/' + id)
+    const response = await axios.get('https://e-commerce-admin-panel-tcs0.onrender.com/OrdersData/' + id)
     dispatch({ type: 'ProductName', value: response.data.ProductName })
     dispatch({ type: 'BuyerName', value: response.data.BuyerName })
     dispatch({ type: 'OrderDate', value: response.data.OrderDate })
@@ -66,7 +66,7 @@ const EditOrders = () => {
       })
     }
     else {
-      const response = await axios.put('http://localhost:3000/OrdersData/' + id, state)
+      const response = await axios.put('https://e-commerce-admin-panel-tcs0.onrender.com/OrdersData/' + id, state)
       Swal.fire({
         title: 'Congrats',
         text: 'Order Updated Successfully',

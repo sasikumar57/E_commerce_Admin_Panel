@@ -41,7 +41,7 @@ const EditShipment = () => {
   } = state
 
   const getShipmentData = async () => {
-    const response = await axios.get('http://localhost:3000/ShipmentData/' + id)
+    const response = await axios.get('https://e-commerce-admin-panel-tcs0.onrender.com/ShipmentData/' + id)
     dispatch({ type: 'ProductName', value: response.data.ProductName })
     dispatch({ type: 'ShippedDate', value: response.data.ShippedDate })
     dispatch({ type: 'DeliveredDate', value: response.data.DeliveredDate })
@@ -61,7 +61,7 @@ const EditShipment = () => {
       })
     }
     else {
-      const response = await axios.put('http://localhost:3000/ShipmentData/' + id, state)
+      const response = await axios.put('https://e-commerce-admin-panel-tcs0.onrender.com/ShipmentData/' + id, state)
       Swal.fire({
         title: 'Congrats',
         text: 'Shipment Updated Successfully',

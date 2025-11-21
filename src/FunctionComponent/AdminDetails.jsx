@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 // import './AdminDetails.css';
 
 const AdminDetails = () => {
-  const api_url = 'http://localhost:3000/UserDetails';
+  const api_url = 'https://e-commerce-admin-panel-tcs0.onrender.com/UserDetails';
 
   const [admin, setAdmin] = useState({});
   const [showCredentials, setShowCredentials] = useState(false);

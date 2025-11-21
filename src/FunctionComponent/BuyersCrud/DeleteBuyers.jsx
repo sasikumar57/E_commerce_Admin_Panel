@@ -9,7 +9,7 @@ const DeleteBuyers = () => {
 
   const navigate = useNavigate()
   const { id } = useParams() // to fetch only the id from the url
-  const api_url = 'http://localhost:3000/BuyersData/'
+  const api_url = 'https://e-commerce-admin-panel-tcs0.onrender.com/BuyersData/'
 
   const deleteData = async () => {
 

@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const ApiCall = () => {
 
     const [data, setData] = useState([])
-    const BASEURL = 'http://localhost:3000'
+    const BASEURL = 'https://e-commerce-admin-panel-tcs0.onrender.com/'
 
     const triggerAPI = async(ENDPOINT, METHOD, BODY={})=> {
         const API_URL = BASEURL + ENDPOINT

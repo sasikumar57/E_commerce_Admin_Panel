@@ -8,7 +8,7 @@ import Swal from 'sweetalert2'
 const Delete = () => {
   const navigate = useNavigate()
   const { id } = useParams() // to fetch only the id from the url
-  const api_url = 'http://localhost:3000/ProductsData/'
+  const api_url = 'https://e-commerce-admin-panel-tcs0.onrender.com/ProductsData/'
   // const {data, triggerAPI} = ApiCall()
 
   const deleteData = async () => {

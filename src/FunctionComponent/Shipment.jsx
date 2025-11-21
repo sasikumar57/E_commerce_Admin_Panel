@@ -12,7 +12,7 @@ import {
 } from '@tanstack/react-table';
 
 const Shipment = () => {
-  const api_url = 'http://localhost:3000/ShipmentData';
+  const api_url = 'https://e-commerce-admin-panel-tcs0.onrender.com/ShipmentData';
   const [shipmentData, setShipmentData] = useState([]);
 
   // Fetch data from API

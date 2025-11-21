@@ -14,7 +14,7 @@ const ViewById = () => {
 
   const getData = async () => {
     // const response = await triggerAPI(`/ProductsData/${id}`)
-    const response = await axios.get('http://localhost:3000/ProductsData/' + id)
+    const response = await axios.get('https://e-commerce-admin-panel-tcs0.onrender.com/ProductsData/' + id)
     // await triggerAPI('/ProductsData','get')
     setproductData(response.data)
   }

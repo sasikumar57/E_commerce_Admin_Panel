@@ -12,7 +12,7 @@ const ShipmentViewById = () => {
   const [shipmentData, setShipmentData] = useState([])
 
   const getData = async () => {
-    const response = await axios.get('http://localhost:3000/ShipmentData/' + id)
+    const response = await axios.get('https://e-commerce-admin-panel-tcs0.onrender.com/ShipmentData/' + id)
     setShipmentData(response.data)
   }
 

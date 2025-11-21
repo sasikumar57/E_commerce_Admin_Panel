@@ -11,7 +11,7 @@ const OrdersViewById = () => {
   const [orderData, setOrderData] = useState([])
 
   const getData = async () => {
-    const response = await axios.get('http://localhost:3000/OrdersData/' + id)
+    const response = await axios.get('https://e-commerce-admin-panel-tcs0.onrender.com/OrdersData/' + id)
     setOrderData(response.data)
   }
 
